@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "desktop-alerts"
 version = "1.0.0"
 description = "Windows tray app for system failure alerts with notifications"
-authors = [{name = "the maintainer", email = "140340948+dexteon@users.noreply.github.com"}]
+authors = [{name = "CyberAutomations"}]
 urls = {Homepage = "https://github.com/dexteon/desktop-alerts"}
 requires-python = ">=3.10"
 dependencies = [
