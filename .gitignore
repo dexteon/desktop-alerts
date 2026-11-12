@@ -1,0 +1,22 @@
+# Desktop Alerts - generated files
+.env
+*.log
+*.pid
+*.show
+desktop-alerts-state.json
+desktop-inbox.jsonl
+desktop-inbox-seen.json
+open-failures.md
+open-failures.json
+fix-with-claude.cmd
+desktop-alerts-icon.png
+hermes-runs/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.coverage
+.tox/
+dist/
+build/
+*.egg-info/

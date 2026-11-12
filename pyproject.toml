@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "desktop-alerts"
+version = "1.0.0"
+description = "Windows tray app for system failure alerts with notifications"
+authors = [{name = "the maintainer", email = "140340948+dexteon@users.noreply.github.com"}]
+urls = {Homepage = "https://github.com/dexteon/desktop-alerts"}
+requires-python = ">=3.10"
+dependencies = [
+    "pystray>=0.19",
+    "winotify>=1.1",
+    "pillow>=10",
+    "pywin32>=306",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "black", "ruff"]
+
+[project.scripts]
+desktop-alerts = "desktop_alerts.desktop_alerts:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["desktop_alerts*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.black]
+line-length = 100
