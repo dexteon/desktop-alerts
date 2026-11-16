@@ -3,7 +3,7 @@
 # Found by the hook through the GITLEAKS_CONFIG environment variable (set at user level on Windows and in WSL ~/.profile).
 # Go RE2 regex: no lookahead or lookbehind. Multi-line anchors need (?m).
 
-title = "DexLab global gitleaks config"
+title = "Global gitleaks config"
 
 [extend]
 # Keep every built-in rule; the rules below are added on top.
